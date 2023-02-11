@@ -1,0 +1,37 @@
+header .nav-link {
+    color: rgb(0, 0, 0);
+    font-weight: 450;
+}
+
+header .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+header .nav-link:hover, header .nav-link:focus {
+    color: red;
+}
+
+header .nav-link:active {
+    color: #ffdb4d;
+}
+
+.photo {
+    margin-right: -20px;
+}
+
+input[type="search"] {
+    border-bottom: 1px solid lightgrey;
+}
+
+.plus-badge {
+    font-size: 10px;
+    padding: 5px 10px;
+    background: rgb(0,168,255);
+    background: linear-gradient(90deg, rgba(0,168,255,1) 0%, rgba(188,0,255,1) 33%, rgba(252,79,79,1) 64%, rgba(249,248,158,1) 100%);
+}
+
+.list-group-item:hover {
+    outline: 4px solid rgba(255, 230, 121, 0.404);
+}

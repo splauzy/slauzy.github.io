@@ -1,0 +1,9 @@
+
+.albums .card:hover {
+    outline: 4px solid rgba(255, 230, 121, 0.404);
+}
+
+.albums a {
+    color: black;
+    text-decoration: none;
+}
